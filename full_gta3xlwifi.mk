@@ -8,19 +8,19 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/samsung/a30/device.mk)
+$(call inherit-product, device/samsung/gta3xlwifi/device.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := a30
-PRODUCT_NAME := full_a30
-PRODUCT_MODEL := a30
+PRODUCT_DEVICE := gta3xlwifi
+PRODUCT_NAME := full_gta3xlwifi
+PRODUCT_MODEL := gta3xlwifi
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
-BUILD_FINGERPRINT := "samsung/a30ub/a30:10/QP1A.190711.020/A305GUBS7BTL1:user/release-keys"
+BUILD_FINGERPRINT := "samsung/gta3xlwifixx/gta3xlwifi:10/QP1A.190711.020/T510XXU4BUA1:user/release-keys"
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-        PRODUCT_NAME=a30dd \
-        PRIVATE_BUILD_DESC="a30dd-user 10 QP1A.190711.020 A305GUBS7BTL1 release-keys"
+        PRODUCT_NAME=gta3xlwifi \
+        PRIVATE_BUILD_DESC="gta3xlwifi-user 10 QP1A.190711.020 T510XXU4BUA1 release-keys"

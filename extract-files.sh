@@ -21,10 +21,10 @@ if [ "${BASH_SOURCE[0]}" != "${0}" ]; then
 fi
 set -e
 
-export DEVICE=a30
+export DEVICE=gta3xlwifi
 export DEVICE_COMMON=universal7904-common
 export VENDOR=samsung
 
-export DEVICE_BRINGUP_YEAR=2020
+export DEVICE_BRINGUP_YEAR=2019
 
 "./../../${VENDOR}/${DEVICE_COMMON}/extract-files.sh" "$@"
