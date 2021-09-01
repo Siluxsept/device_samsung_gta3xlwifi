@@ -58,7 +58,7 @@ vendor/lib64/libbauthtzcommon.so
 
 # Keymaster
 vendor/lib64/libkeymaster_helper_vendor.so
-vendor/lib64/libskeymaster4device.so
+-vendor/lib64/libskeymaster4device.so
 
 # Media
 vendor/firmware/mfc_fw.bin

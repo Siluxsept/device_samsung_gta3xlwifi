@@ -7,15 +7,11 @@ $(call inherit-product, vendor/samsung/gta3xlwifi/gta3xlwifi-vendor.mk)
 
 # Keymaster
 PRODUCT_PACKAGES += \
-     android.hardware.keymaster@4.0-service.samsung \
+    android.hardware.keymaster@4.0-service.samsung \
     libkeymaster4_1support.vendor
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/android.hardware.keymaster@4.0-service.samsung.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.keymaster@4.0-service.samsung.xml
-
-# NFC
-#PRODUCT_COPY_FILES += \
-#    $(LOCAL_PATH)/configs/libnfc-sec-vendor.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-sec-vendor.conf
 
 # Rootdir
 PRODUCT_PACKAGES += \
